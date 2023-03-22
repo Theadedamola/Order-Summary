@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    text-align: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+.ptrn-bgr{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: -1;
+}
+
+.prd-row{
+    display: flex;
+}
+.product-card{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 24px;
+    padding-bottom: 40px;
+}
+
+
+.product-img {
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.prd-desc{
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(175, 175, 175);
+    margin-bottom: 10px;
+}
+
+.prd-det{
+    width: 320px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px auto;
+    text-align: left;
+    border-radius: 16px;
+    display: flex;
+}
+
+.prd-icon{
+    padding: 20px;
+}
+.plan-change{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.plan-change-txt:hover{
+    color: #b2aef1;
+    text-decoration: none;
+}
+.plan-change-txt{
+    font-weight: 900;
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+}
+h2{
+    font-size: 24px; 
+    margin-bottom: 10px;
+ }
+h3{
+   font-size: 14px;
+   margin-top: 24px;
+   margin-bottom: -10px; 
+}
+.price{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(175, 175, 175);
+}
+
+.pri-btn{
+    background-color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 85px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.pri-btn:hover{
+    background-color: #7974e0;
+    box-shadow: 10px 5px 20px #b2aef1;
+}
+.sec-btn{
+    color: rgb(104, 104, 104);
+    padding: 16px 110px;
+    border: 0;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.sec-btn:hover{
+    color: rgb(64, 64, 64);
+}
+
+/* responsive */
+
+@media (max-width: 375px) {
+    
+    .product-card{
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 320px;
+        height: 500px;
+    }
+    .pri-btn{
+        padding: 12px 65px;
+    }
+    .prd-det{
+        width: 270px;
+        margin: 20px auto;
+    }
+    h3{
+        width: 200%;
+    }    
+    .plan-change{
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .ptrn-bgr{
+        width: 100%;
+        height: 100px;
+    }    
+}
